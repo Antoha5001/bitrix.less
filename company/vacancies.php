@@ -15,4 +15,9 @@ $APPLICATION->SetTitle("Вакансии");
 	"AJAX_OPTION_ADDITIONAL" => ""
 	),
 	false
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);?>
+<p><? $APPLICATION->ShowProperty('description')?></p>
+<?
+$APPLICATION->SetPageProperty('description','123')
+?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
