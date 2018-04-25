@@ -33,7 +33,7 @@ $APPLICATION->SetTitle("Мебельная компания");
 </p><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
 
 <?php
-
-	$arr = ["123",456];
-	test_dump($arr);
+//
+//	$arr = ["123",456];
+//	test_dump($arr);
 ?>
