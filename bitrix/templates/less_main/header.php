@@ -3,19 +3,22 @@
 IncludeTemplateLangFile(__FILE__);
 ?>
 <!DOCTYPE HTML>
-<html lang="en-US">
+<html lang="<?=LANGUAGE_ID?>">
 <head>
-	<meta charset="windows-1251">
-	<title></title>
-	<link rel="stylesheet" href="template_style.css"/>
-	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-	<script type="text/javascript" src="js/slides.min.jquery.js"></script>
-	<script type="text/javascript" src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
-	<script type="text/javascript" src="js/functions.js"></script>
+	<?$APPLICATION->ShowHead();?>
+	<title><?=$APPLICATION->ShowTitle()?></title>
+
+	<script type="text/javascript" src="bitrix/templates/.default/js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="bitrix/templates/.default/js/slides.min.jquery.js"></script>
+	<script type="text/javascript" src="bitrix/templates/.default/js/jquery.carouFredSel-6.1.0-packed.js"></script>
+	<script type="text/javascript" src="bitrix/templates/.default/js/functions.js"></script>
 
 	<!--[if gte IE 9]><style type="text/css">.gradient {filter: none;}</style><![endif]-->
+
+	<link rel="stylesheet" href="bitrix/templates/.default/template_styles.css">
 </head>
 <body>
+<?$APPLICATION->ShowPanel();?>
 <div class="wrap">
 	<div class="hd_header_area">
 		<div class="hd_header">
@@ -63,7 +66,7 @@ IncludeTemplateLangFile(__FILE__);
 			</table>
 			<div class="nv_topnav">
 				<ul>
-					<li><a class="menu-img-fon" style="background-image: url(images/nv_home.png);" href="/"><span></span></a></li>
+					<li><a class="menu-img-fon" style="background-image: url(bitrix/templates/.default/images/nv_home.png);" href="/"><span></span></a></li>
 					<li><a href=""><span>Компания</span></a>
 						<ul>
 							<li><a href="">Пункт 1</a></li>
@@ -115,7 +118,7 @@ IncludeTemplateLangFile(__FILE__);
 		<div class="slides_container">
 			<div>
 				<div>
-					<img src="content/1.jpg" alt="" />
+					<img src="bitrix/templates/.default/content/1.jpg" alt="" />
 					<h2><a href="">Диваны и кресла</a></h2>
 					<p>Новая комбинация для ТВ БЕСТО не просто предмет мебели – она разработана, также, для мультимедиа. Провода и сетевые кабели можно хранить внутри комбинации или протянуть через отверстие для вентиляции. Секция полок обеспечивает эффективное использование стены, освобождая место на полу.</p>
 					<a href="" class="sl_more">Подробнее &rarr;</a>
@@ -123,7 +126,7 @@ IncludeTemplateLangFile(__FILE__);
 			</div>
 			<div>
 				<div>
-					<img src="content/1.jpg" alt="" />
+					<img src="bitrix/templates/.default/content/1.jpg" alt="" />
 					<h2><a href="">Диваны и кресла</a></h2>
 					<p>Новая комбинация для ТВ БЕСТО не просто предмет мебели – она разработана, также, для мультимедиа. Провода и сетевые кабели можно хранить внутри комбинации или протянуть через отверстие для вентиляции. Секция полок обеспечивает эффективное использование стены, освобождая место на полу.</p>
 					<a href="" class="sl_more">Подробнее &rarr;</a>
@@ -164,25 +167,25 @@ IncludeTemplateLangFile(__FILE__);
 			<div class="cn_hp_category">
 				<ul>
 					<li>
-						<img src="content/1.png" alt=""/>
+						<img src="bitrix/templates/.default/content/1.png" alt=""/>
 						<h2><a href="">Мягкая мебель</a></h2>
 						<p>Диваны, кресла и прочая мягкая мебель <a class="cn_hp_categorymore" href="">&rarr;</a></p>
 						<div class="clearboth"></div>
 					</li>
 					<li>
-						<img src="content/2.png" alt=""/>
+						<img src="bitrix/templates/.default/content/2.png" alt=""/>
 						<h2><a href="">Офисная мебель</a></h2>
 						<p>Диваны, столы, стулья <a class="cn_hp_categorymore" href="">&rarr;</a></p>
 						<div class="clearboth"></div>
 					</li>
 					<li>
-						<img src="content/3.png" alt=""/>
+						<img src="bitrix/templates/.default/content/3.png" alt=""/>
 						<h2><a href="">Мебель для кухни</a></h2>
 						<p>Полки, ящики, столы и стулья <a class="cn_hp_categorymore" href="">&rarr;</a></p>
 						<div class="clearboth"></div>
 					</li>
 					<li>
-						<img src="content/4.png" alt=""/>
+						<img src="bitrix/templates/.default/content/4.png" alt=""/>
 						<h2><a href="">Детская мебель</a></h2>
 						<p>Кровати, стулья, мягкая детская мебель <a class="cn_hp_categorymore" href="">&rarr;</a></p>
 						<div class="clearboth"></div>
@@ -193,19 +196,19 @@ IncludeTemplateLangFile(__FILE__);
 			<div class="cn_hp_post">
 				<div class="cn_hp_post_new">
 					<h3>Новинки</h3>
-					<img src="content/7.png" alt=""/>
+					<img src="bitrix/templates/.default/content/7.png" alt=""/>
 					<p>Угловой диван "Титаник", с большим выбором расцветок и фактур.</p>
 					<div class="clearboth"></div>
 				</div>
 				<div class="cn_hp_post_action">
 					<h3>Акции</h3>
-					<img src="content/7.png" alt=""/>
+					<img src="bitrix/templates/.default/content/7.png" alt=""/>
 					<p>Угловой диван "Титаник", с большим выбором расцветок и фактур.</p>
 					<div class="clearboth"></div>
 				</div>
 				<div class="cn_hp_post_bestsellersn">
 					<h3>Хиты продаж</h3>
-					<img src="content/7.png" alt=""/>
+					<img src="bitrix/templates/.default/content/7.png" alt=""/>
 					<p>Угловой диван "Титаник", с большим выбором расцветок и фактур.</p>
 					<div class="clearboth"></div>
 				</div>
@@ -258,7 +261,7 @@ IncludeTemplateLangFile(__FILE__);
 			<ul id="foo">
 				<li>
 					<div class="rw_message">
-						<img src="content/8.png" class="rw_avatar" alt=""/>
+						<img src="bitrix/templates/.default/content/8.png" class="rw_avatar" alt=""/>
 						<span class="rw_name">Сергей Антонов</span>
 						<span class="rw_job">Руководитель финансового отдела “Банк+”</span>
 						<p>“Покупал офисные стулья и столы, остался очень доволен! Низкие цены, быстрая доставка, обслуживание на высоте! Спасибо!”</p>
@@ -268,7 +271,7 @@ IncludeTemplateLangFile(__FILE__);
 				</li>
 				<li>
 					<div class="rw_message">
-						<img src="content/8.png" class="rw_avatar" alt=""/>
+						<img src="bitrix/templates/.default/content/8.png" class="rw_avatar" alt=""/>
 						<span class="rw_name">Дмитрий Иванов</span>
 						<span class="rw_job">Генеральный директор группы компаний "Офис+"</span>
 						<p>“В магзине предоставили потрясающий выбор расцветок, а также, получил большую скидку по карте постоянного клиента.”</p>
@@ -278,7 +281,7 @@ IncludeTemplateLangFile(__FILE__);
 				</li>
 				<li>
 					<div class="rw_message">
-						<img src="content/8.png" class="rw_avatar" alt=""/>
+						<img src="bitrix/templates/.default/content/8.png" class="rw_avatar" alt=""/>
 						<span class="rw_name">Сергей Антонов</span>
 						<span class="rw_job">Руководитель финансового отдела “Банк+”</span>
 						<p>“Покупал офисные стулья и столы, остался очень доволен! Низкие цены, быстрая доставка, обслуживание на высоте! Спасибо!”</p>

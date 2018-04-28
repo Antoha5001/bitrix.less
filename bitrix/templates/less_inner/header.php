@@ -5,16 +5,18 @@ IncludeTemplateLangFile(__FILE__);
 <!DOCTYPE HTML>
 <html lang="ru-RU">
 <head>
-	<?$APPLICATION->ShowHead();?>
+	<?$APPLICATION->ShowHead()?>
 	<title><?$APPLICATION->ShowTitle()?></title>
 
-	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery-1.8.2.min.js"></script>
-	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/slides.min.jquery.js"></script>
-	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery.carouFredSel-6.1.0-packed.js"></script>
-	<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/functions.js"></script>
+	<script type="text/javascript" src="bitrix/templates/.default/js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="bitrix/templates/.default/js/slides.min.jquery.js"></script>
+	<script type="text/javascript" src="bitrix/templates/.default/js/jquery.carouFredSel-6.1.0-packed.js"></script>
+	<script type="text/javascript" src="bitrix/templates/.default/js/functions.js"></script>
 
-	<link rel="icon shortcut" type="image/x-icon" href="<?=SITE_TEMPLATE_PATH?>/favicon.icon"/>
+	<link rel="icon shortcut" type="image/x-icon" href="bitrix/templates/.default/favicon.icon"/>
 	<!--[if gte IE 9]><style type="text/css">.gradient {filter: none;}</style><![endif]-->
+
+	<link rel="stylesheet" href="bitrix/templates/.default/template_styles.css">
 </head>
 <body>
 <?$APPLICATION->ShowPanel();?>
@@ -63,38 +65,23 @@ IncludeTemplateLangFile(__FILE__);
 					</td>
 				</tr>
 			</table>
-			<div class="nv_topnav">
-				<ul>
-					<li><a href=""   class="menu-img-fon"  style="background-image: url
-								(<?=SITE_TEMPLATE_PATH?>/images/nv_home.png);" ><span></span></a></li>
-					<li><a href=""><span>Компания</span></a>
-						<ul>
-							<li><a href="">Пункт 1</a></li>
-							<li><a href="">Пункт 2</a></li>
-							<li><a href="">Пункт 3</a></li>
-							<li><a href="">Пункт 4</a></li>
-						</ul>
-					</li>
-					<li><a href=""><span>Новости</span></a></li>
-					<li><a href=""><span>Каталог</span></a></li>
-					<li><a href=""><span>Акции</span></a>
-						<ul>
-							<li><a href="">Пункт 1</a>
-								<ul>
-									<li><a href="">Пункт 1</a></li>
-									<li><a href="">Пункт 2</a></li>
-								</ul>
-							</li>
-							<li><a href="">Пункт 2</a></li>
-							<li><a href="">Пункт 3</a></li>
-							<li><a href="">Пункт 4</a></li>
-						</ul>
-					</li>
-					<li><a href=""><span>Партнерам</span></a></li>
-					<li><a href=""><span>Контакты</span></a></li>
-					<div class="clearboth"></div>
-				</ul>
-			</div>
+
+			<?$APPLICATION->IncludeComponent("bitrix:menu", "top_multi", Array(
+				"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
+				"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
+				"DELAY" => "N",	// Откладывать выполнение шаблона меню
+				"MAX_LEVEL" => "2",	// Уровень вложенности меню
+				"MENU_CACHE_GET_VARS" => "",	// Значимые переменные запроса
+				"MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
+				"MENU_CACHE_TYPE" => "N",	// Тип кеширования
+				"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
+				"ROOT_MENU_TYPE" => "top",	// Тип меню для первого уровня
+				"USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
+				"COMPONENT_TEMPLATE" => "horizontal_multilevel"
+			),
+				false
+			);?>
+
 		</div>
 	</div>
 

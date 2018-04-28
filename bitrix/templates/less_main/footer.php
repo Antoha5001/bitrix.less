@@ -1,4 +1,3 @@
-
 <div class="ft_footer">
 	<div class="ft_container">
 		<div class="ft_about">
@@ -42,7 +41,7 @@
 				<li><a href="" class="ok"></a></li>
 				<li><a href="" class="vk"></a></li>
 			</ul>
-			<div class="ft_copyright">© 2000 - 2012 "Мебельный магазин" </div>
+			<div class="ft_copyright">© 2000 - 2018 "Мебельный магазин" </div>
 
 
 		</div>

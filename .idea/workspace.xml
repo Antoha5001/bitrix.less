@@ -2,14 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70717c5-3cb4-43d8-9f48-df8889e4550d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bitrix/templates/less_inner/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitrix/templates/less_inner/lang/en/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitrix/templates/less_inner/lang/en/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitrix/templates/less_inner/lang/ru/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitrix/templates/less_inner/lang/ru/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/less_inner/components/bitrix/menu/top_multi/template2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.top.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/.top.menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123/Site.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/123/bitrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/.styles.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/less_inner/.styles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/photo_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/photo_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/content/photo_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/less_inner/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/less_inner/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/bc_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/ctrl-btns.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/ft_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/gui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/hd_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/hp_shadow_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/hp_shadow_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/il_action.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/il_hit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/il_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/nofoto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/nv_home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/pixel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/sb_action.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/sb_arrow_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/sb_arrow_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/sb_event.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/images/workarea_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_loading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_nav_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_nav_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_shadow_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_shadow_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_shadow_ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_shadow_nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_shadow_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_shadow_se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_shadow_sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_shadow_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_title_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_title_main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_title_over.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancy_title_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancybox-x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancybox-y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/fancybox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/jquery.easing-1.3.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/jquery.fancybox-1.3.4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/jquery.fancybox-1.3.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/jquery.fancybox-1.3.4.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/fancybox/jquery.mousewheel-3.0.4.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/jquery-1.8.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/jquery.carouFredSel-6.1.0-packed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/jquery.refineslide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/jquery.refineslide.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/js/slides.min.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_inner/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/less_inner/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_main/.styles.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/less_main/.styles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_main/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/less_main/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_main/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/less_main/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_main/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/less_main/template_styles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/novaya-stranitsa.php" beforeDir="false" afterPath="$PROJECT_DIR$/novaya-stranitsa.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,20 +124,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/less_main/header.php">
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/components/bitrix/menu/top_multi/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1192">
-              <caret line="294" selection-start-line="294" selection-end-line="294" />
+            <state relative-caret-position="-36">
+              <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+              <folding>
+                <element signature="e#780#845#0#HTML" expanded="true" />
+                <element signature="e#1256#1317#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/less_main/footer.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="716">
-              <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+            <state relative-caret-position="875">
+              <caret line="58" column="66" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/components/bitrix/menu/top_multi/template2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -62,11 +158,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="344" column="7" lean-forward="true" selection-start-line="291" selection-start-column="8" selection-end-line="344" selection-end-column="7" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -84,6 +177,11 @@
     <findStrings>
       <find>img</find>
       <find>link</find>
+      <find>content</find>
+      <find>c</find>
+      <find>load</find>
+      <find>class</find>
+      <find>nv_topnav</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,17 +201,30 @@
         <option value="$PROJECT_DIR$/partners/.left.menu.php" />
         <option value="$PROJECT_DIR$/partners/index.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/05202da7-2e8a-4196-8e8c-64991b1a5947/console.sql" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/bitrix/templates/less_inner/lang/ru/footer.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/less_inner/lang/ru/header.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/less_inner/lang/en/header.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/less_inner/lang/en/footer.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/less_inner/footer.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/less_inner/header.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/less_inner/css/style.css" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/less_main/header.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/.default/styles.css" />
+        <option value="$PROJECT_DIR$/bitrix/templates/less_inner/footer.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/less_main/footer.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/.default/template_styles.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/novaya-stranitsa.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/less_inner/.styles.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/less_inner/styles.css" />
+        <option value="$PROJECT_DIR$/bitrix/templates/mail_user/.styles.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/less_main/.styles.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/less_main/header.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/bitrix/components/bitrix/menu/templates/vertical_multilevel/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/less_inner/components/bitrix/menu/top_multi/style.css" />
+        <option value="$PROJECT_DIR$/HTML/index.html" />
+        <option value="$PROJECT_DIR$/bitrix/templates/less_inner/components/bitrix/menu/top_multi/template2.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/less_inner/header.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/less_inner/components/bitrix/menu/top_multi/template.php" />
       </list>
     </option>
   </component>
@@ -135,11 +246,11 @@
       <path value="$PROJECT_DIR$/bitrix/modules/main/install/js/main/amcharts/3.21/plugins/responsive/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="y" value="108" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="33" />
+    <option name="y" value="33" />
     <option name="width" value="1604" />
-    <option name="height" value="935" />
+    <option name="height" value="961" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -165,7 +276,72 @@
               <item name="bitrix.less" type="b2602c69:ProjectViewProjectNode" />
               <item name="bitrix.less" type="462c0819:PsiDirectoryNode" />
               <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="php_interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bitrix.less" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bitrix.less" type="462c0819:PsiDirectoryNode" />
+              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bitrix.less" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bitrix.less" type="462c0819:PsiDirectoryNode" />
+              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name=".default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bitrix.less" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bitrix.less" type="462c0819:PsiDirectoryNode" />
+              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bitrix.less" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bitrix.less" type="462c0819:PsiDirectoryNode" />
+              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="less_inner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bitrix.less" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bitrix.less" type="462c0819:PsiDirectoryNode" />
+              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="less_inner" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bitrix.less" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bitrix.less" type="462c0819:PsiDirectoryNode" />
+              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="less_inner" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bitrix.less" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bitrix.less" type="462c0819:PsiDirectoryNode" />
+              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="less_inner" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bitrix.less" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bitrix.less" type="462c0819:PsiDirectoryNode" />
+              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="less_inner" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="top_multi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bitrix.less" type="b2602c69:ProjectViewProjectNode" />
@@ -177,7 +353,9 @@
             <path>
               <item name="bitrix.less" type="b2602c69:ProjectViewProjectNode" />
               <item name="bitrix.less" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="mail_user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,6 +375,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OpenServer3\OSPanel\domains\bitrix.less\bitrix\templates\less_inner\components\bitrix\menu\top_multi" />
       <recent name="E:\OpenServer3\OSPanel\domains\bitrix.less\bitrix\templates\less_inner\lang\en" />
       <recent name="E:\OpenServer3\OSPanel\domains\bitrix.less\bitrix\templates\less_inner\lang\ru" />
       <recent name="C:\OpenServer2\domains\bitrix.less\partners" />
@@ -236,26 +415,29 @@
       <workItem from="1524475640443" duration="664000" />
       <workItem from="1524547942935" duration="4323000" />
       <workItem from="1524626589265" duration="8919000" />
+      <workItem from="1524719309083" duration="7386000" />
+      <workItem from="1524807482281" duration="6660000" />
+      <workItem from="1524889645653" duration="15564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33672000" />
+    <option name="totallyTimeSpent" value="63282000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="108" width="1604" height="935" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23186529" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32946146" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32891247" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15709047" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3295838" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -266,7 +448,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Database Console" order="8" visible="true" weight="0.32968536" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,84 +483,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/include/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/history.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.section.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/modules/iblock/classes/general/iblock.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4182">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/after_connect_d7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/init.php" />
-    <entry file="file://$PROJECT_DIR$/company/vacancies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="50" selection-start-line="20" selection-end-line="20" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/.settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/.top.menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.top.menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -406,29 +509,6 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/05202da7-2e8a-4196-8e8c-64991b1a5947/console.sql" />
-    <entry file="file://$PROJECT_DIR$/bitrix/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/lang/en/logo.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/lang/ru/logo.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/lang/ru/preview.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/lang/ru/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -463,18 +543,6 @@
           <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/styles.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/template_styles.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/after_connect.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/s1/init.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/description.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -511,47 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/header.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/footer.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#td#2;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#span#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#0;n#span#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/include/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="807">
@@ -573,27 +600,193 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/.styles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_main/.styles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novaya-stranitsa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/mail_user/.styles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/less_main/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1192">
-          <caret line="294" selection-start-line="294" selection-end-line="294" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/bitrix/menu/templates/.default/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/bitrix/menu/component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/bitrix/menu/.parameters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/bitrix/menu/templates/vertical_multilevel/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/bitrix/menu/.description.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/styles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/include/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="344" column="7" lean-forward="true" selection-start-line="291" selection-start-column="8" selection-end-line="344" selection-end-column="7" />
+        <state relative-caret-position="68">
+          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="58" column="66" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/components/bitrix/menu/top_multi/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
           <folding>
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#780#845#0#HTML" expanded="true" />
+            <element signature="e#1256#1317#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_main/footer.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/components/bitrix/menu/top_multi/script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/components/bitrix/menu/top_multi/images/lock.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/components/bitrix/menu/top_multi/images/header_menu_bg.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/components/bitrix/menu/top_multi/images/arrow.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/components/bitrix/menu/top_multi/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+        <state relative-caret-position="170">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/template_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="259" column="27" selection-start-line="259" selection-start-column="27" selection-end-line="259" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/components/bitrix/menu/top_multi/script.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/less_inner/components/bitrix/menu/top_multi/template2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
         </state>
       </provider>
     </entry>
