@@ -8,18 +8,21 @@ IncludeTemplateLangFile(__FILE__);
 	<?$APPLICATION->ShowHead()?>
 	<title><?$APPLICATION->ShowTitle()?></title>
 
-	<script type="text/javascript" src="bitrix/templates/.default/js/jquery-1.8.2.min.js"></script>
-	<script type="text/javascript" src="bitrix/templates/.default/js/slides.min.jquery.js"></script>
-	<script type="text/javascript" src="bitrix/templates/.default/js/jquery.carouFredSel-6.1.0-packed.js"></script>
-	<script type="text/javascript" src="bitrix/templates/.default/js/functions.js"></script>
+<!--    <link href="--><?//=CUtil::GetAdditionalFileURL('/bitrix/templates/.default/template_styles.css')?><!--" type="text/css" rel="stylesheet" />-->
+	<script type="text/javascript" src="/bitrix/templates/.default/js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="/bitrix/templates/.default/js/slides.min.jquery.js"></script>
+	<script type="text/javascript" src="/bitrix/templates/.default/js/jquery.carouFredSel-6.1.0-packed.js"></script>
+	<script type="text/javascript" src="/bitrix/templates/.default/js/functions.js"></script>
 
 	<link rel="icon shortcut" type="image/x-icon" href="bitrix/templates/.default/favicon.icon"/>
 	<!--[if gte IE 9]><style type="text/css">.gradient {filter: none;}</style><![endif]-->
 
-	<link rel="stylesheet" href="bitrix/templates/.default/template_styles.css">
+	<link rel="stylesheet" href="/bitrix/templates/.default/template_styles.css">
+
 </head>
 <body>
 <?$APPLICATION->ShowPanel();?>
+
 <div class="wrap">
 	<div class="hd_header_area">
 		<div class="hd_header">
@@ -86,14 +89,12 @@ IncludeTemplateLangFile(__FILE__);
 	</div>
 
 	<!--- // end header area --->
-	<div class="bc_breadcrumbs">
-		<ul>
-			<li><a href="">Каталог</a></li>
-			<li><a href="">Мебель</a></li>
-			<li><a href="">Выставки и события</a></li>
-		</ul>
-		<div class="clearboth"></div>
-	</div>
+    <?$APPLICATION->IncludeComponent(
+        "bitrix:breadcrumb",
+        "breadcrumbs",
+        Array()
+    );?><br>
+
 	<div class="main_container page">
 		<div class="mn_container">
 			<div class="mn_content">

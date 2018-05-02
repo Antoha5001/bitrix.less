@@ -1,7 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Новости");
-?><?$APPLICATION->IncludeComponent("bitrix:news", ".default", array(
+?>
+
+<?$APPLICATION->IncludeComponent("bitrix:news", ".default", array(
 	"IBLOCK_TYPE" => "news",
 	"IBLOCK_ID" => "1",
 	"NEWS_COUNT" => "5",
@@ -83,4 +85,9 @@ $APPLICATION->SetTitle("Новости");
 	)
 	),
 	false
-);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);
+
+//$APPLICATION->AddChainItem("Пункт 1", "/test.php")
+?>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

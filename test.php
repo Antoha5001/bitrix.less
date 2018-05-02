@@ -1,4 +1,8 @@
 <?
 	require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 	$APPLICATION->SetTitle("тест");
-?><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
+?><?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumbs", Array(
+	
+	),
+	false
+);?><br><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
