@@ -29,10 +29,34 @@ IncludeTemplateLangFile(__FILE__);
 			<table>
 				<tr>
 					<td rowspan="2" class="hd_companyname">
-						<h1><a href="">Мебельный магазин</a></h1>
+						<h1>
+                            <?$APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "AREA_FILE_SUFFIX" => "inc",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/logo.php"
+                                ),
+                                false
+                            );?>
+                        </h1>
 					</td>
 					<td rowspan="2" class="hd_txarea">
-						<span class="tel">8 (495) 212-85-06</span>	<br/>
+						<span class="tel"><?$APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "AREA_FILE_SUFFIX" => "inc",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/phone_top.php"
+                                ),
+                                false
+                            );?></span>	<br/>
 						<?=GetMessage('WORKING_TIME')?> <span class="workhours">ежедневно с 9-00 до 18-00</span>
 					</td>
 					<td style="width:232px">
@@ -46,25 +70,15 @@ IncludeTemplateLangFile(__FILE__);
 				</tr>
 				<tr>
 					<td style="padding-top: 11px;">
-							<span class="hd_singin"><a id="hd_singin_but_open" href="">Войти на сайт</a>
-							<div class="hd_loginform">
-								<span class="hd_title_loginform">Войти на сайт</span>
-								<form name="" method="" action="">
-
-									<input placeholder="Логин"  type="text">
-									<input  placeholder="Пароль"  type="password">
-									<a href="/" class="hd_forgotpassword">Забыли пароль</a>
-
-									<div class="head_remember_me" style="margin-top: 10px">
-										<input id="USER_REMEMBER_frm" name="USER_REMEMBER" value="Y" type="checkbox">
-										<label for="USER_REMEMBER_frm" title="Запомнить меня на этом компьютере">Запомнить меня</label>
-									</div>
-									<input value="Войти" name="Login" style="margin-top: 20px;" type="submit">
-									</form>
-								<span class="hd_close_loginform">Закрыть</span>
-							</div>
-							</span><br>
-						<a href="" class="hd_signup">Зарегистрироваться</a>
+                        <?$APPLICATION->IncludeComponent("bitrix:system.auth.form", "auth", Array(
+                            "FORGOT_PASSWORD_URL" => "/user/",	// Страница забытого пароля
+                            "PROFILE_URL" => "/user/profile.php",	// Страница профиля
+                            "REGISTER_URL" => "/user/registratsiya.php",	// Страница регистрации
+                            "SHOW_ERRORS" => "N",	// Показывать ошибки
+                            "COMPONENT_TEMPLATE" => ".default"
+                        ),
+                            false
+                        );?>
 					</td>
 				</tr>
 			</table>
