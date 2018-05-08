@@ -70,12 +70,20 @@ IncludeTemplateLangFile(__FILE__);
 				</tr>
 				<tr>
 					<td style="padding-top: 11px;">
-                        <?$APPLICATION->IncludeComponent("bitrix:system.auth.form", "auth", Array(
+<!--                        --><?//$APPLICATION->IncludeComponent("bitrix:system.auth.form", "auth", Array(
+//                            "FORGOT_PASSWORD_URL" => "/user/",	// Страница забытого пароля
+//                            "PROFILE_URL" => "/user/profile.php",	// Страница профиля
+//                            "REGISTER_URL" => "/user/registratsiya.php",	// Страница регистрации
+//                            "SHOW_ERRORS" => "Y",	// Показывать ошибки
+//                            "COMPONENT_TEMPLATE" => ".default"
+//                        ),
+//                            false
+//                        );?><!-- -->
+						<?$APPLICATION->IncludeComponent("bitrix:system.auth.form", ".default", Array(
                             "FORGOT_PASSWORD_URL" => "/user/",	// Страница забытого пароля
-                            "PROFILE_URL" => "/user/profile.php",	// Страница профиля
-                            "REGISTER_URL" => "/user/registratsiya.php",	// Страница регистрации
-                            "SHOW_ERRORS" => "N",	// Показывать ошибки
-                            "COMPONENT_TEMPLATE" => ".default"
+                            "PROFILE_URL" => "",	// Страница профиля
+                            "REGISTER_URL" => "",	// Страница регистрации
+                            "SHOW_ERRORS" => "Y"	// Показывать ошибки
                         ),
                             false
                         );?>
